@@ -1,4 +1,4 @@
-package com.example.wiproapplication
+package com.ust.wiproapplication
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
