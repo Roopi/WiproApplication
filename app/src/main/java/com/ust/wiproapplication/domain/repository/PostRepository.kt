@@ -1,4 +1,9 @@
 package com.ust.wiproapplication.domain.repository
 
-class PostRepository {
+import com.ust.wiproapplication.domain.model.Post
+
+interface PostRepository {
+
+    suspend fun getPosts(): List<Post>
+
 }
